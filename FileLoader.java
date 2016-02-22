@@ -83,6 +83,7 @@ try
 						if(count1==(totalarg-1))
 						{
 							gotitems1=1;
+							count1=0;
 						}
 					}
 					else
@@ -92,6 +93,11 @@ try
 						price1.add(p);
 						added.add(ad);//System.out.println(" id2 "+id1+" "+price1);
 						count1++;
+						if(count1==(totalarg-1))
+						{
+							gotitems1=1;
+							count1=0;
+						}
 					}
 			}
 			
